@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculate Fees</title>
+<link rel="stylesheet" href="style.css">   
+</head>
+<body>
+  <header class="site-header green">
+<div class="brand">
+      <img class="logo" src="images/AdventureEscapeSA logo.png" alt="Adventure Escape SA logo" width="30" height="30">
+      <span>Adventure Escape SA</span>
+</div>
+<nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="overview.html">Overview</a></li>
+      <li><a href="fees.html" class="active">Fees</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+  </header>
+
+<main><div class="fees-wrap"><h2>Calculate Fees</h2>
+<div class="fees-grid" id="fee-list">
+<div class="card">
+  <img src="images/coporate challege.jpg" alt="Corporate Team Challenge"><b>Corporate Team Challenge
+     </b>R1 500<button class="btn" data-add="corporate">+ Add</button></div>
+
+<div class="card">
+  <img src="images/zip.jpg" alt="Ziplining Adventure"><b>Ziplining Adventure
+  </b>R750<button class="btn" data-add="zipline">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain climbing Capetown.jpg" alt="Ultimate Adventure Day"><b>Ultimate Adventure Day
+   </b>R1 500<button class="btn" data-add="ultimate">+ Add</button></div>
+
+<div class="card">
+  <img src="images/lake.jpg" alt="Kayaking Experience"><b>Kayaking Experience
+   </b>R750<button class="btn" data-add="kayak">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain adventure.jpg" alt="Mountain Adventure"><b>Mountain Adventure
+  </b>R1 500<button class="btn" data-add="mountain">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain 4.jpg" alt="Rock Climbing Session">
+  <b>Rock Climbing Session</b>R750<button class="btn" data-add="rock">+ Add</button></div>
+
+<div class="card">
+  <img src="images/family.jpg" alt="Family Explorer">
+  <b>Family Explorer</b>R1 500<button class="btn" data-add="family">+ Add</button></div>
+</div>
+
+<aside class="selection">
+  <h3 id="sel-title">Your Selection (0 Items)</h3>
+
+<div id="sel-items"></div><hr style="margin:12px 0;border-color:#fff">
+<div class="sum"><div>Subtotal: <span id="subtotal">R0</span></div><div>Discount: <span id="discount">0 %</span></div></div>
+<div class="total" id="total">Total: R0</div>
+<div class="rules">Discounts:<br>One booking - no discount<br>Two bookings - 5% discount<br>Three bookings - 10% discount<br>More than three bookings - 15% discount</div>
+<button class="btn" id="request-quote" type="button">Request Quote</button><p id="quote-msg" style="margin-top:10px;font-weight:700"></p></aside></div></main>
+
+<footer>2026 | <a href="#">Footer Links</a> | <a href="#">Social Icons</a></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
