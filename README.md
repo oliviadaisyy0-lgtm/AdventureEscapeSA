@@ -48,8 +48,7 @@ The website includes the following pages:
 5. Use the navigation links to explore the website pages
 
 ## Project Structure
-
-
+```text
 adventure-escape/
 |-- home.html
 |-- about.html
@@ -65,29 +64,6 @@ adventure-escape/
 |   |-- AdventureEscapeSA_Phase2.pdf
 |-- README.md
 ```
-   
-## Project Design
-
-The website design follows the high-fidelity wireframes created in Figma. The layout, colours, images, logos, and content are intended to provide a consistent user experience.
-* Colours: forest green, burnt orange and sand beige, to represent nature and adventure.
-* Navigation: the same simple menu and the same layout on every page.
-* Buttons: large and clearly interactive, with orange and green for the main actions.
-
-## figma link for website and mobile 
-https://www.figma.com/design/WJYrIjh7CamHH2RB8sEkSH/Adventure-Escape-SA?node-id=44-2&p=f&t=I7HIITXhT1nk1vz4-0
 
 
-## Group Members
 
-* Group Member 1: Rayan Bvulani 
-* Group Member 2: Itumeleng Ndlovu 
-* Group Member 3: Asukia Ebuta
-
-## Demonstration
-
-YouTube Video for html website: https://youtu.be/EOJXmWRH18s
-
-
-## Assignment Submission
-
-This project final part of Task . The completed website HTML, CSS and JAVASCRIPT, and make presentation and final video.
