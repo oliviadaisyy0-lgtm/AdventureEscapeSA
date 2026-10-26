@@ -31,6 +31,20 @@ The website includes the following pages:
 * Every picture bounces when it is pressed.
 
 
+### Prices and Discounts
+
+| Item | Price |
+|---|---|
+| Packages (Corporate Team Challenge, Mountain Adventure, Ultimate Adventure Day, Family Explorer) | R1 500 |
+| Individual activities (Ziplining Adventure, Kayaking Experience, Rock Climbing Session) | R750 |
+
+| Number of bookings | Discount |
+|---|---|
+| 1 | No discount |
+| 2 | 5% |
+| 3 | 10% |
+| More than 3 | 15% |
+
 ## Technologies Used
 
 * HTML5 – Structures the website content.
