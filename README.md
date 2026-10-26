@@ -48,6 +48,7 @@ The website includes the following pages:
 5. Use the navigation links to explore the website pages
 
 ## Project Structure
+
 adventure-escape/
 |-- home.html
 |-- about.html
