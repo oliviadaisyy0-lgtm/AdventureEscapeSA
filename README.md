@@ -49,6 +49,7 @@ The website includes the following pages:
 
 ## Project Structure
 
+
 adventure-escape/
 |-- home.html
 |-- about.html
@@ -59,9 +60,11 @@ adventure-escape/
 |-- style.css
 |-- script.js
 |-- images/
-`-- presentation/
-    |-- AdventureEscapeSA_Phase2.pptx
-    `-- AdventureEscapeSA_Phase2.pdf
+|-- presentation/
+|   |-- AdventureEscapeSA_Phase2.pptx
+|   |-- AdventureEscapeSA_Phase2.pdf
+|-- README.md
+```
    
 ## Project Design
 
