@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculate Fees</title>
+<link rel="stylesheet" href="style.css">   
+</head>
+<body>
+  <header class="site-header green">
+<div class="brand">
+      <img class="logo" src="images/AdventureEscapeSA logo.png" alt="Adventure Escape SA logo" width="30" height="30">
+      <span>Adventure Escape SA</span>
+</div>
+<nav>
+  <ul>
+    <li><a href="home.html" class="active">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+      <li class="dropdown"><a href="overview.html">Overview</a><button class="dd-toggle" type="button" aria-label="Show Overview menu" aria-expanded="false">&#9662;</button>
+      <ul class="dd-menu">
+   <li><a href="overview.html#all">All adventures</a></li>
+   <li><a href="overview.html#packages">Packages</a></li>
+   <li><a href="overview.html#individual">Individual Activities</a></li>
+   <li><a href="individual.html?id=mountain">Mountain Adventure</a></li>
+   </ul>
+  </li>
+  <li><a href="fees.html" class="active">Fees</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+ </ul>
+</nav>
+</header>
+
+<main><div class="fees-wrap"><h2>Calculate Fees</h2>
+<div class="fees-grid" id="fee-list">
+<div class="card">
+  <img src="images/coporate challege.jpg" alt="Corporate Team Challenge"><b>Corporate Team Challenge
+     </b>R1 500<button class="btn" data-add="corporate">+ Add</button></div>
+
+<div class="card">
+  <img src="images/zip.jpg" alt="Ziplining Adventure"><b>Ziplining Adventure
+  </b>R750<button class="btn" data-add="zipline">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain climbing Capetown.jpg" alt="Ultimate Adventure Day"><b>Ultimate Adventure Day
+   </b>R1 500<button class="btn" data-add="ultimate">+ Add</button></div>
+
+<div class="card">
+  <img src="images/lake.jpg" alt="Kayaking Experience"><b>Kayaking Experience
+   </b>R750<button class="btn" data-add="kayak">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain adventure.jpg" alt="Mountain Adventure"><b>Mountain Adventure
+  </b>R1 500<button class="btn" data-add="mountain">+ Add</button></div>
+
+<div class="card">
+  <img src="images/mountain 4.jpg" alt="Rock Climbing Session">
+  <b>Rock Climbing Session</b>R750<button class="btn" data-add="rock">+ Add</button></div>
+
+<div class="card">
+  <img src="images/family.jpg" alt="Family Explorer">
+  <b>Family Explorer</b>R1 500<button class="btn" data-add="family">+ Add</button></div>
+</div>
+
+<aside class="selection">
+  <h3 id="sel-title">Your Selection (0 Items)</h3>
+
+<div id="sel-items"></div><hr style="margin:12px 0;border-color:#fff">
+<div class="sum"><div>Subtotal: <span id="subtotal">R0</span></div><div>Discount: <span id="discount">0 %</span></div></div>
+<div class="total" id="total">Total: R0</div>
+<div class="rules">Discounts:<br>One booking - no discount<br>Two bookings - 5% discount<br>Three bookings - 10% discount<br>More than three bookings - 15% discount</div>
+<button class="btn" id="request-quote" type="button">Request Quote</button><p id="quote-msg" style="margin-top:10px;font-weight:700"></p></aside></div>
+
+<section class="table-wrap">
+<h2>Price list and discounts</h2>
+<div class="tables">
+<table class="price-table">
+<caption>Prices per person</caption>
+<thead><tr><th scope="col">Adventure</th><th scope="col">Type</th><th scope="col">Price</th></tr></thead>
+<tbody>
+<tr><td>Corporate Team Challenge</td><td>Package</td><td>R1 500</td></tr>
+<tr><td>Mountain Adventure</td><td>Package</td><td>R1 500</td></tr>
+<tr><td>Ultimate Adventure Day</td><td>Package</td><td>R1 500</td></tr>
+<tr><td>Family Explorer</td><td>Package</td><td>R1 500</td></tr>
+<tr><td>Ziplining Adventure</td><td>Individual activity</td><td>R750</td></tr>
+<tr><td>Kayaking Experience</td><td>Individual activity</td><td>R750</td></tr>
+<tr><td>Rock Climbing Session</td><td>Individual activity</td><td>R750</td></tr>
+</tbody>
+</table>
+<table class="price-table">
+<caption>Discount for more than one booking</caption>
+<thead><tr><th scope="col">Bookings</th><th scope="col">Discount</th><th scope="col">Example with R1 500 packages</th></tr></thead>
+<tbody>
+<tr><td>1 booking</td><td>No discount</td><td>R1 500</td></tr>
+<tr><td>2 bookings</td><td>5%</td><td>R2 850</td></tr>
+<tr><td>3 bookings</td><td>10%</td><td>R4 050</td></tr>
+<tr><td>More than 3 bookings</td><td>15%</td><td>4 bookings: R5 100</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+</main>
+
+
+
+
+<footer>2026 | <a href="#">Footer Links</a> | <a href="#">Social Icons</a></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
