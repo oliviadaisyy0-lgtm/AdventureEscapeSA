@@ -14,22 +14,41 @@ The website is developed using HTML and is based on the high-fidelity wireframes
 * Collaborate as a group using GitHub.
 
 ## Website Pages
-
 The website includes the following pages:
+* Home Page (home.html) – Introduces the company with a banner, the buttons View Packages and Get Quote, and the featured packages. It gives access to the main sections of the website.
+* About Us (about.html) – Provides information about the organisation, its background (founded by Liam Daniels), and its mission.
 
-1. **Home Page (`index.html`)** – Introduces the project and provides access to the main sections of the website.
-2. **About Us (`about.html`)** – Provides information about the organisation, its background, and its purpose.
-3. **Contact Page (`contact.html`)** – Provides contact information and a way for visitors to make enquiries.
-4. **Fees Page (`fees.html`)** – Displays relevant fees or pricing information.
-5. **Individual Page** – Provides additional information about a selected service, activity, or offering.
+Overview Page (overview.html) – Shows all 4 adventure packages and 3 individual activities. The buttons All, Packages and Individual Activities filter what is shown.
+
+Individual Page (individual.html) – Provides additional information about a selected package (for example the Mountain Adventure Package): pictures, rating, and sections that open and close (Description, What's Included, Meeting Point and Cancellation Policy). It also has a date box, Book Now, Add To Quote, Save and Share.
+
+Fees Page (fees.html) – Displays the prices. Visitors add activities to Your Selection and the subtotal, discount and total are calculated.
+
+Contact Page (contact.html) – Provides contact information, a map, and a form for visitors to make enquiries.
+
+## Features
+Clear menu on every page: Home, About Us, Overview, Fees and Contact us.
+
+Featured packages with pictures and prices on the Home page.
+
+Filter buttons on the Overview page.
+
+Arrows on the Individual page that open and close the information sections.
+
+Fees calculator: + Add adds an item to Your Selection, X removes it, and the subtotal, discount and total update each time.
+
+Contact form that checks the name and email and then shows a thank-you message with the visitor's name.
+
+Every picture bounces when it is pressed.
+
 
 ## Technologies Used
 
 * HTML5 – Structures the website content.
-* CSS3 – Styles the website and controls its layout.
-* JavaScript – Adds interactivity where required.
+* CSS3 – Styles the website and controls its layout (all in style.css).
+* JavaScript – Adds interactivity: filters, arrows, the fees calculator, forms and buttons (all in script.js).
 * Visual Studio Code – Used to write and edit the code.
-* Figma – Used to design the high-fidelity wireframes.
+* Figma – Used to design the wireframes.
 * GitHub – Used for version control and group collaboration.
 
 ## How to Run the Website
